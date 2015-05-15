@@ -39,7 +39,6 @@
     "cordell": "*",
     "consolidate": "*",
     "ejs": "*",
-    "mongoose": "*",
     "underscore": "*",
     "express-resource": "*",
     "express-namespace": "*",
