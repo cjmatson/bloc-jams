@@ -8,7 +8,7 @@ body {
   color: white;
   min-height: 120%;
   background: -webkit-radial-gradient(#2b1339, #380c77);
-  background: -radial-gradient(#2b1339, #380c77); }
+  background: radial-gradient(#2b1339, #380c77); }
 
 /* line 13, stdin */
 body.landing {
@@ -97,6 +97,33 @@ body.landing .navbar {
 /* line 108, stdin */
 body.player {
   color: white; }
+
+/* line 112, stdin */
+.collection-album-container {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+/* line 116, stdin */
+.collection-album-container .caption {
+  margin-top: 10px; }
+
+/* line 119, stdin */
+.collection-album-container .caption p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 124, stdin */
+.collection-album-container .caption p a {
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 127, stdin */
+.collection-album-container .caption p a.album-name {
+  color: white; }
+
+/* line 131, stdin */
+.collection-album-container img {
+  max-width: 100%; }
 
 
 /*# sourceMappingURL=app.css.map*/
