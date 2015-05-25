@@ -1,178 +1,70 @@
-/* line 1, stdin */
-html {
-  height: 100%; }
-
-/* line 5, stdin */
-body {
-  font-family: 'Open Sans';
-  color: white;
-  min-height: 120%;
-  background: -webkit-radial-gradient(#2b1339, #380c77);
-  background: radial-gradient(#2b1339, #380c77);
-  padding-bottom: 150px; }
-
-/* line 14, stdin */
-body.landing {
-  background: #5B5579;
-  color: white;
-  font-family: 'Open Sans';
-  padding-bottom: 0; }
-
-/* line 21, stdin */
+/* line 1, app/stylesheets/_landing.scss */
 .hero-content {
-  background: #2F1D57;
-  padding: 100px 0; }
+  background-color: #2F1D57;
+  padding: 100px 0;
+  background: #2F1D57; }
 
-/* line 26, stdin */
+/* line 7, app/stylesheets/_landing.scss */
 .hero-content h1 {
   font-size: 70px;
   margin-bottom: 50px;
   font-weight: 300; }
 
-/* line 32, stdin */
+/* line 13, app/stylesheets/_landing.scss */
 .selling-points {
   padding: 100px 0; }
 
-/* line 36, stdin */
-.selling-points .point {
-  width: 32%;
-  float: left;
-  padding: 0 0.5%; }
-
-/* line 42, stdin */
+/* line 17, app/stylesheets/_landing.scss */
 .selling-points .point h5 {
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 20px;
   text-align: center;
   height: 85px; }
 
-/* line 49, stdin */
+/* line 25, app/stylesheets/_landing.scss */
 .selling-points .point p {
   font-size: 14px; }
 
-/* line 56, stdin */
-.player-header-nav {
-  background-color: rgba(123, 70, 163, 0.9); }
-
-/* line 60, stdin */
-body.landing .navbar {
-  margin-bottom: 0; }
-
-/* line 64, stdin */
+/* line 1, app/stylesheets/_album.scss */
 .album-header-container {
   margin-top: 55px;
   margin-bottom: 40px; }
 
-/* line 70, stdin */
+/* line 7, app/stylesheets/_album.scss */
 .album-header-information {
   margin-top: 45px;
   margin-bottom: 20px; }
 
-/* line 76, stdin */
+/* line 13, app/stylesheets/_album.scss */
 .album-header-information h3, .album-header-information h4, .album-header-information h5 {
   line-height: 150%; }
 
-/* line 83, stdin */
+/* line 20, app/stylesheets/_album.scss */
 .album-header-information h3 {
   font-size: 48px;
   font-weight: 300; }
 
-/* line 88, stdin */
+/* line 25, app/stylesheets/_album.scss */
 .album-header-information h4 {
   font-size: 24px;
   font-weight: 700; }
 
-/* line 93, stdin */
+/* line 30, app/stylesheets/_album.scss */
 .album-header-information h5 {
   font-size: 16px;
   font-weight: 500; }
 
-/* line 99, stdin */
+/* line 36, app/stylesheets/_album.scss */
 .table.album-song-listing {
   font-weight: 300; }
 
-/* line 105, stdin */
+/* line 42, app/stylesheets/_album.scss */
 .table.album-song-listing td {
   padding: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.4); }
 
-/* line 110, stdin */
-body.player {
-  color: white; }
-
-/* line 114, stdin */
-.collection-album-container {
-  margin-top: 30px;
-  margin-bottom: 20px; }
-
-/* line 118, stdin */
-.collection-album-container .caption {
-  margin-top: 10px; }
-
-/* line 121, stdin */
-.collection-album-container .caption p {
-  font-size: 16px;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.6); }
-
-/* line 126, stdin */
-.collection-album-container .caption p a {
-  color: rgba(255, 255, 255, 0.6); }
-
-/* line 129, stdin */
-.collection-album-container .caption p a.album-name {
-  color: white; }
-
-/* line 133, stdin */
-.collection-album-container img {
-  max-width: 100%; }
-
-/* line 137, stdin */
-.collection-album-container .collection-album-image-container {
-  position: relative; }
-
-/* line 141, stdin */
-.collection-album-container .collection-album-image-overlay {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: 10; }
-
-/* line 151, stdin */
-.collection-album-container .collection-overlay-content {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  text-align: center; }
-
-/* line 158, stdin */
-.collection-album-container .collection-overlay-button {
-  font-size: 20px;
-  background-color: white;
-  color: #d2287b;
-  border-radius: 50% 50%;
-  display: inline-block;
-  width: 42px;
-  height: 42px; }
-
-/* line 168, stdin */
-.collection-album-container .collection-overlay-button:hover {
-  cursor: pointer;
-  color: white;
-  background-color: #d2287b; }
-
-/* line 174, stdin */
-.collection-album-container .collection-overlay-button i {
-  line-height: 42px; }
-
-/* line 178, stdin */
-.collection-album-container .collection-overlay-button .fa-play {
-  padding-left: 5px; }
-
-/* line 182, stdin */
+/* line 47, app/stylesheets/_album.scss */
 .album-song-button {
   text-align: center;
   font-size: 14px;
@@ -183,31 +75,445 @@ body.player {
   width: 28px;
   height: 28px; }
 
-/* line 193, stdin */
+/* line 58, app/stylesheets/_album.scss */
 .album-song-button:hover {
   cursor: pointer;
   color: white;
   background-color: #d2287b; }
 
-/* line 199, stdin */
+/* line 64, app/stylesheets/_album.scss */
 .album-song-button i {
   line-height: 28px; }
 
-/* line 203, stdin */
+/* line 68, app/stylesheets/_album.scss */
 .album-song-button .fa-play {
   padding-left: 5px; }
 
-/* line 207, stdin */
+/* line 72, app/stylesheets/_album.scss */
 .album-song-listing td {
-  vertical-align: middle; }
+  vertical-align: center; }
 
-/* line 211, stdin */
+/* line 76, app/stylesheets/_album.scss */
 td.song-number {
   padding: 0;
   height: 70px;
   text-align: center; }
 
-/* line 217, stdin */
+/* line 1, app/stylesheets/_collection.scss */
+.collection-album-container {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+/* line 5, app/stylesheets/_collection.scss */
+.collection-album-container .caption {
+  margin-top: 10px; }
+
+/* line 9, app/stylesheets/_collection.scss */
+.collection-album-container .caption p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 15, app/stylesheets/_collection.scss */
+.collection-album-container .caption p a {
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 19, app/stylesheets/_collection.scss */
+.collection-album-container .caption p a.album-name {
+  color: white; }
+
+/* line 23, app/stylesheets/_collection.scss */
+.collection-album-container img {
+  max-width: 100%; }
+
+/* line 27, app/stylesheets/_collection.scss */
+.collection-album-container .collection-album-image-container {
+  position: relative; }
+
+/* line 31, app/stylesheets/_collection.scss */
+.collection-album-container .collection-album-image-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10; }
+
+/* line 41, app/stylesheets/_collection.scss */
+.collection-album-container .collection-overlay-content {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center; }
+
+/* line 48, app/stylesheets/_collection.scss */
+.collection-album-container .collection-overlay-button {
+  font-size: 20px;
+  background-color: white;
+  color: #d2287b;
+  border-radius: 50% 50%;
+  display: inline-block;
+  width: 42px;
+  height: 42px; }
+
+/* line 58, app/stylesheets/_collection.scss */
+.collection-album-container .collection-overlay-button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #d2287b; }
+
+/* line 64, app/stylesheets/_collection.scss */
+.collection-album-container .collection-overlay-button i {
+  line-height: 42px; }
+
+/* line 68, app/stylesheets/_collection.scss */
+.collection-album-container .collection-overlay-button .fa-play {
+  padding-left: 5px; }
+
+/* line 1, app/stylesheets/_player_bar.scss */
+.player-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 100; }
+  /* line 10, app/stylesheets/_player_bar.scss */
+  .player-bar a, .player-bar a:hover {
+    color: white;
+    cursor: pointer;
+    text-decoration: none; }
+  /* line 16, app/stylesheets/_player_bar.scss */
+  .player-bar .container {
+    display: table;
+    padding: 0;
+    min-height: 100%; }
+  /* line 22, app/stylesheets/_player_bar.scss */
+  .player-bar .left-controls {
+    width: 25%;
+    text-align: left; }
+  /* line 27, app/stylesheets/_player_bar.scss */
+  .player-bar .right-controls {
+    width: 25%;
+    text-align: right; }
+  /* line 33, app/stylesheets/_player_bar.scss */
+  .player-bar .play-controls a {
+    font-size: 20px;
+    vertical-align: middle; }
+  /* line 38, app/stylesheets/_player_bar.scss */
+  .player-bar .play-controls .previous {
+    margin-right: 65px; }
+  /* line 42, app/stylesheets/_player_bar.scss */
+  .player-bar .play-controls .play-pause {
+    margin-right: 60px;
+    font-size: 30px; }
+  /* line 48, app/stylesheets/_player_bar.scss */
+  .player-bar .currently-playing {
+    width: 50%;
+    text-align: center;
+    position: relative; }
+    /* line 53, app/stylesheets/_player_bar.scss */
+    .player-bar .currently-playing .song-name, .player-bar .currently-playing .artist-name {
+      text-align: center;
+      margin: 0;
+      position: absolute;
+      width: 100%;
+      font-size: 16px;
+      font-weight: 300; }
+    /* line 61, app/stylesheets/_player_bar.scss */
+    .player-bar .currently-playing .song-name {
+      top: 20px; }
+    /* line 64, app/stylesheets/_player_bar.scss */
+    .player-bar .currently-playing .artist-name {
+      bottom: 20px; }
+  /* line 69, app/stylesheets/_player_bar.scss */
+  .player-bar .queue-toggle {
+    display: inline-block;
+    margin-left: 75px; }
+    /* line 73, app/stylesheets/_player_bar.scss */
+    .player-bar .queue-toggle i {
+      font-size: 20px; }
+  /* line 78, app/stylesheets/_player_bar.scss */
+  .player-bar .volume {
+    display: inline-block; }
+    /* line 81, app/stylesheets/_player_bar.scss */
+    .player-bar .volume i {
+      width: 40px;
+      font-size: 20px;
+      display: inline-block;
+      vertical-align: middle; }
+    /* line 88, app/stylesheets/_player_bar.scss */
+    .player-bar .volume .seek-bar {
+      display: inline-block;
+      width: 100px;
+      vertical-align: middle; }
+
+/* line 96, app/stylesheets/_player_bar.scss */
+.player-bar-control-group {
+  display: table-cell;
+  vertical-align: middle; }
+
+/* line 101, app/stylesheets/_player_bar.scss */
+.seek-control {
+  position: relative; }
+  /* line 104, app/stylesheets/_player_bar.scss */
+  .seek-control .current-time {
+    position: absolute;
+    top: 10px; }
+  /* line 108, app/stylesheets/_player_bar.scss */
+  .seek-control .total-time {
+    position: absolute;
+    right: 0;
+    top: 10px; }
+
+/* line 115, app/stylesheets/_player_bar.scss */
+.seek-bar {
+  height: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+  position: relative;
+  cursor: pointer; }
+  /* line 122, app/stylesheets/_player_bar.scss */
+  .seek-bar .fill {
+    background: white;
+    width: 36%;
+    height: 5px;
+    border-radius: 2px; }
+  /* line 129, app/stylesheets/_player_bar.scss */
+  .seek-bar .thumb {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: white;
+    left: 36%;
+    margin-left: -5px;
+    top: 50%;
+    margin-top: -5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 100ms ease-in-out; }
+  /* line 144, app/stylesheets/_player_bar.scss */
+  .seek-bar.no-animate .fill, .seek-bar.no-animate .thumb {
+    transition: none; }
+  /* line 149, app/stylesheets/_player_bar.scss */
+  .seek-bar:hover .thumb {
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px; }
+
+/* line 6, stdin */
+html {
+  height: 100%; }
+
+/* line 10, stdin */
+body {
+  font-family: 'Open Sans';
+  color: white;
+  min-height: 120%;
+  background: -webkit-radial-gradient(#2b1339, #380c77);
+  background: radial-gradient(#2b1339, #380c77);
+  padding-bottom: 150px; }
+
+/* line 19, stdin */
+body.landing {
+  background: #5B5579;
+  color: white;
+  font-family: 'Open Sans';
+  padding-bottom: 0; }
+
+/* line 26, stdin */
+.hero-content {
+  background: #2F1D57;
+  padding: 100px 0; }
+
+/* line 31, stdin */
+.hero-content h1 {
+  font-size: 70px;
+  margin-bottom: 50px;
+  font-weight: 300; }
+
+/* line 37, stdin */
+.selling-points {
+  padding: 100px 0; }
+
+/* line 41, stdin */
+.selling-points .point {
+  width: 32%;
+  float: left;
+  padding: 0 0.5%; }
+
+/* line 47, stdin */
+.selling-points .point h5 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  height: 85px; }
+
+/* line 54, stdin */
+.selling-points .point p {
+  font-size: 14px; }
+
+/* line 61, stdin */
+.player-header-nav {
+  background-color: rgba(123, 70, 163, 0.9); }
+
+/* line 65, stdin */
+body.landing .navbar {
+  margin-bottom: 0; }
+
+/* line 69, stdin */
+.album-header-container {
+  margin-top: 55px;
+  margin-bottom: 40px; }
+
+/* line 75, stdin */
+.album-header-information {
+  margin-top: 45px;
+  margin-bottom: 20px; }
+
+/* line 81, stdin */
+.album-header-information h3, .album-header-information h4, .album-header-information h5 {
+  line-height: 150%; }
+
+/* line 88, stdin */
+.album-header-information h3 {
+  font-size: 48px;
+  font-weight: 300; }
+
+/* line 93, stdin */
+.album-header-information h4 {
+  font-size: 24px;
+  font-weight: 700; }
+
+/* line 98, stdin */
+.album-header-information h5 {
+  font-size: 16px;
+  font-weight: 500; }
+
+/* line 104, stdin */
+.table.album-song-listing {
+  font-weight: 300; }
+
+/* line 110, stdin */
+.table.album-song-listing td {
+  padding: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4); }
+
+/* line 115, stdin */
+body.player {
+  color: white; }
+
+/* line 119, stdin */
+.collection-album-container {
+  margin-top: 30px;
+  margin-bottom: 20px; }
+
+/* line 123, stdin */
+.collection-album-container .caption {
+  margin-top: 10px; }
+
+/* line 126, stdin */
+.collection-album-container .caption p {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 131, stdin */
+.collection-album-container .caption p a {
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 134, stdin */
+.collection-album-container .caption p a.album-name {
+  color: white; }
+
+/* line 138, stdin */
+.collection-album-container img {
+  max-width: 100%; }
+
+/* line 142, stdin */
+.collection-album-container .collection-album-image-container {
+  position: relative; }
+
+/* line 146, stdin */
+.collection-album-container .collection-album-image-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 10; }
+
+/* line 156, stdin */
+.collection-album-container .collection-overlay-content {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center; }
+
+/* line 163, stdin */
+.collection-album-container .collection-overlay-button {
+  font-size: 20px;
+  background-color: white;
+  color: #d2287b;
+  border-radius: 50% 50%;
+  display: inline-block;
+  width: 42px;
+  height: 42px; }
+
+/* line 173, stdin */
+.collection-album-container .collection-overlay-button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #d2287b; }
+
+/* line 179, stdin */
+.collection-album-container .collection-overlay-button i {
+  line-height: 42px; }
+
+/* line 183, stdin */
+.collection-album-container .collection-overlay-button .fa-play {
+  padding-left: 5px; }
+
+/* line 187, stdin */
+.album-song-button {
+  text-align: center;
+  font-size: 14px;
+  background-color: white;
+  color: #d2287b;
+  border-radius: 50% 50%;
+  display: inline-block;
+  width: 28px;
+  height: 28px; }
+
+/* line 198, stdin */
+.album-song-button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: #d2287b; }
+
+/* line 204, stdin */
+.album-song-button i {
+  line-height: 28px; }
+
+/* line 208, stdin */
+.album-song-button .fa-play {
+  padding-left: 5px; }
+
+/* line 212, stdin */
+.album-song-listing td {
+  vertical-align: middle; }
+
+/* line 216, stdin */
+td.song-number {
+  padding: 0;
+  height: 70px;
+  text-align: center; }
+
+/* line 222, stdin */
 .player-bar {
   position: fixed;
   bottom: 0;
@@ -217,59 +523,59 @@ td.song-number {
   background: rgba(255, 255, 255, 0.3);
   z-index: 100; }
 
-/* line 227, stdin */
+/* line 232, stdin */
 .player-bar a, .player-bar a:hover {
   color: white;
   cursor: pointer;
   text-decoration: none; }
 
-/* line 233, stdin */
+/* line 238, stdin */
 .player-bar .container {
   display: table;
   padding: 0;
   min-height: 100%; }
 
-/* line 239, stdin */
+/* line 244, stdin */
 .player-bar-control-group {
   display: table-cell;
   vertical-align: middle; }
 
-/* line 244, stdin */
+/* line 249, stdin */
 .player-bar .left-controls {
   width: 25%;
   text-align: left; }
 
-/* line 249, stdin */
+/* line 254, stdin */
 .player-bar .right-controls {
   width: 25%;
   text-align: right; }
 
-/* line 254, stdin */
+/* line 259, stdin */
 .player-bar .play-controls a {
   font-size: 20px;
   vertical-align: middle;
   transition: opacity 100ms ease-in-out; }
 
-/* line 260, stdin */
+/* line 265, stdin */
 .player-bar .play-controls a:hover {
   opacity: 0.5; }
 
-/* line 264, stdin */
+/* line 269, stdin */
 .player-bar .play-controls .previous {
   margin-right: 65px; }
 
-/* line 268, stdin */
+/* line 273, stdin */
 .player-bar .play-controls .play-pause {
   margin-right: 60px;
   font-size: 30px; }
 
-/* line 273, stdin */
+/* line 278, stdin */
 .player-bar .currently-playing {
   width: 50%;
   text-align: center;
   position: relative; }
 
-/* line 280, stdin */
+/* line 285, stdin */
 .player-bar .currently-playing .song-name, .player-bar .currently-playing .artist-name {
   text-align: center;
   font-size: 12px;
@@ -278,30 +584,30 @@ td.song-number {
   width: 100%;
   font-weight: 300; }
 
-/* line 290, stdin */
+/* line 295, stdin */
 .player-bar .currently-playing .song-name {
   top: 20px; }
 
-/* line 294, stdin */
+/* line 299, stdin */
 .player-bar .currently-playing .artist-name {
   bottom: 20px; }
 
-/* line 298, stdin */
+/* line 303, stdin */
 .seek-control {
   position: relative; }
 
-/* line 302, stdin */
+/* line 307, stdin */
 .seek-control .current-time {
   position: absolute;
   top: 10px; }
 
-/* line 307, stdin */
+/* line 312, stdin */
 .seek-control .total-time {
   position: absolute;
   right: 0;
   top: 10px; }
 
-/* line 313, stdin */
+/* line 318, stdin */
 .seek-bar {
   height: 5px;
   background: rgba(255, 255, 255, 0.3);
@@ -309,14 +615,14 @@ td.song-number {
   position: relative;
   cursor: pointer; }
 
-/* line 321, stdin */
+/* line 326, stdin */
 .seek-bar .fill {
   background: white;
   width: 36%;
   height: 5px;
   border-radius: 2px; }
 
-/* line 328, stdin */
+/* line 333, stdin */
 .seek-bar .thumb {
   position: absolute;
   height: 10px;
@@ -330,34 +636,34 @@ td.song-number {
   cursor: pointer;
   transition: all 100ms ease-in-out; }
 
-/* line 342, stdin */
+/* line 347, stdin */
 .seek-bar:hover .thumb {
   width: 20px;
   height: 20px;
   margin-top: -10px;
   margin-left: -10px; }
 
-/* line 349, stdin */
+/* line 354, stdin */
 .player-bar .queue-toggle {
   display: inline-block;
   margin-left: 75px; }
 
-/* line 354, stdin */
+/* line 359, stdin */
 .player-bar .queue-toggle i {
   font-size: 20px; }
 
-/* line 358, stdin */
+/* line 363, stdin */
 .player-bar .volume {
   display: inline-block; }
 
-/* line 362, stdin */
+/* line 367, stdin */
 .player-bar .volume i {
   width: 40px;
   font-size: 20px;
   display: inline-block;
   vertical-align: middle; }
 
-/* line 368, stdin */
+/* line 373, stdin */
 .player-bar .volume .seek-bar {
   display: inline-block;
   width: 100px;
