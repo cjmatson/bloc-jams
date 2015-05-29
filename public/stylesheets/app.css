@@ -2,24 +2,26 @@
 .hero-content {
   background-color: #2F1D57;
   padding: 100px 0;
-  background: #2F1D57; }
-  /* line 5, app/stylesheets/_landing.scss */
+  background: #2F1D57;
+  color: white; }
+  /* line 6, app/stylesheets/_landing.scss */
   .hero-content h1 {
     font-size: 70px;
     margin-bottom: 50px;
     font-weight: 300; }
 
-/* line 12, app/stylesheets/_landing.scss */
+/* line 13, app/stylesheets/_landing.scss */
 .selling-points {
-  padding: 100px 0; }
-  /* line 14, app/stylesheets/_landing.scss */
+  padding: 100px 0;
+  color: white; }
+  /* line 16, app/stylesheets/_landing.scss */
   .selling-points .point h5 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
     height: 85px; }
-  /* line 21, app/stylesheets/_landing.scss */
+  /* line 23, app/stylesheets/_landing.scss */
   .selling-points .point p {
     font-size: 14px; }
 
