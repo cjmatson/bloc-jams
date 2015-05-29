@@ -3,173 +3,145 @@
   background-color: #2F1D57;
   padding: 100px 0;
   background: #2F1D57; }
+  /* line 5, app/stylesheets/_landing.scss */
+  .hero-content h1 {
+    font-size: 70px;
+    margin-bottom: 50px;
+    font-weight: 300; }
 
-/* line 7, app/stylesheets/_landing.scss */
-.hero-content h1 {
-  font-size: 70px;
-  margin-bottom: 50px;
-  font-weight: 300; }
-
-/* line 13, app/stylesheets/_landing.scss */
+/* line 12, app/stylesheets/_landing.scss */
 .selling-points {
   padding: 100px 0; }
-
-/* line 17, app/stylesheets/_landing.scss */
-.selling-points .point h5 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  text-align: center;
-  height: 85px; }
-
-/* line 25, app/stylesheets/_landing.scss */
-.selling-points .point p {
-  font-size: 14px; }
+  /* line 14, app/stylesheets/_landing.scss */
+  .selling-points .point h5 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    height: 85px; }
+  /* line 21, app/stylesheets/_landing.scss */
+  .selling-points .point p {
+    font-size: 14px; }
 
 /* line 1, app/stylesheets/_album.scss */
 .album-header-container {
   margin-top: 55px;
   margin-bottom: 40px; }
-
-/* line 7, app/stylesheets/_album.scss */
-.album-header-information {
-  margin-top: 45px;
-  margin-bottom: 20px; }
-
-/* line 13, app/stylesheets/_album.scss */
-.album-header-information h3, .album-header-information h4, .album-header-information h5 {
-  line-height: 150%; }
-
-/* line 20, app/stylesheets/_album.scss */
-.album-header-information h3 {
-  font-size: 48px;
-  font-weight: 300; }
-
-/* line 25, app/stylesheets/_album.scss */
-.album-header-information h4 {
-  font-size: 24px;
-  font-weight: 700; }
-
-/* line 30, app/stylesheets/_album.scss */
-.album-header-information h5 {
-  font-size: 16px;
-  font-weight: 500; }
-
-/* line 36, app/stylesheets/_album.scss */
-.table.album-song-listing {
-  font-weight: 300; }
-
-/* line 42, app/stylesheets/_album.scss */
-.table.album-song-listing td {
-  padding: 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.4); }
-
-/* line 47, app/stylesheets/_album.scss */
-.album-song-button {
-  text-align: center;
-  font-size: 14px;
-  background-color: white;
-  color: #d2287b;
-  border-radius: 50% 50%;
-  display: inline-block;
-  width: 28px;
-  height: 28px; }
-
-/* line 58, app/stylesheets/_album.scss */
-.album-song-button:hover {
-  cursor: pointer;
-  color: white;
-  background-color: #d2287b; }
-
-/* line 64, app/stylesheets/_album.scss */
-.album-song-button i {
-  line-height: 28px; }
-
-/* line 68, app/stylesheets/_album.scss */
-.album-song-button .fa-play {
-  padding-left: 5px; }
-
-/* line 72, app/stylesheets/_album.scss */
-.album-song-listing td {
-  vertical-align: center; }
-
-/* line 76, app/stylesheets/_album.scss */
-td.song-number {
-  padding: 0;
-  height: 70px;
-  text-align: center; }
+  /* line 6, app/stylesheets/_album.scss */
+  .album-header-container .album-header-information {
+    margin-top: 45px;
+    margin-bottom: 20px; }
+    /* line 10, app/stylesheets/_album.scss */
+    .album-header-container .album-header-information h3, .album-header-container .album-header-information h4, .album-header-container .album-header-information h5 {
+      line-height: 150%; }
+    /* line 16, app/stylesheets/_album.scss */
+    .album-header-container .album-header-information h3 {
+      font-size: 48px;
+      font-weight: 300; }
+    /* line 20, app/stylesheets/_album.scss */
+    .album-header-container .album-header-information h4 {
+      font-size: 24px;
+      font-weight: 700; }
+    /* line 25, app/stylesheets/_album.scss */
+    .album-header-container .album-header-information h5 {
+      font-size: 16px;
+      font-weight: 500; }
+  /* line 32, app/stylesheets/_album.scss */
+  .album-header-container .table.album-song-listing {
+    font-weight: 300; }
+    /* line 36, app/stylesheets/_album.scss */
+    .album-header-container .table.album-song-listing td {
+      padding: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.4); }
+  /* line 42, app/stylesheets/_album.scss */
+  .album-header-container .album-song-button {
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
+    color: #d2287b;
+    border-radius: 50% 50%;
+    display: inline-block;
+    width: 28px;
+    height: 28px; }
+    /* line 51, app/stylesheets/_album.scss */
+    .album-header-container .album-song-button:hover {
+      cursor: pointer;
+      color: white;
+      background-color: #d2287b; }
+    /* line 56, app/stylesheets/_album.scss */
+    .album-header-container .album-song-button i {
+      line-height: 28px; }
+    /* line 59, app/stylesheets/_album.scss */
+    .album-header-container .album-song-button .fa-play {
+      padding-left: 5px; }
+    /* line 62, app/stylesheets/_album.scss */
+    .album-header-container .album-song-button td {
+      vertical-align: center; }
+  /* line 67, app/stylesheets/_album.scss */
+  .album-header-container td.song-number {
+    padding: 0;
+    height: 70px;
+    text-align: center; }
 
 /* line 1, app/stylesheets/_collection.scss */
 .collection-album-container {
   margin-top: 30px;
   margin-bottom: 20px; }
-
-/* line 5, app/stylesheets/_collection.scss */
-.collection-album-container .caption {
-  margin-top: 10px; }
-
-/* line 9, app/stylesheets/_collection.scss */
-.collection-album-container .caption p {
-  font-size: 16px;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.6); }
-
-/* line 15, app/stylesheets/_collection.scss */
-.collection-album-container .caption p a {
-  color: rgba(255, 255, 255, 0.6); }
-
-/* line 19, app/stylesheets/_collection.scss */
-.collection-album-container .caption p a.album-name {
-  color: white; }
-
-/* line 23, app/stylesheets/_collection.scss */
-.collection-album-container img {
-  max-width: 100%; }
-
-/* line 27, app/stylesheets/_collection.scss */
-.collection-album-container .collection-album-image-container {
-  position: relative; }
-
-/* line 31, app/stylesheets/_collection.scss */
-.collection-album-container .collection-album-image-overlay {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: 10; }
-
-/* line 41, app/stylesheets/_collection.scss */
-.collection-album-container .collection-overlay-content {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  text-align: center; }
-
-/* line 48, app/stylesheets/_collection.scss */
-.collection-album-container .collection-overlay-button {
-  font-size: 20px;
-  background-color: white;
-  color: #d2287b;
-  border-radius: 50% 50%;
-  display: inline-block;
-  width: 42px;
-  height: 42px; }
-
-/* line 58, app/stylesheets/_collection.scss */
-.collection-album-container .collection-overlay-button:hover {
-  cursor: pointer;
-  color: white;
-  background-color: #d2287b; }
-
-/* line 64, app/stylesheets/_collection.scss */
-.collection-album-container .collection-overlay-button i {
-  line-height: 42px; }
-
-/* line 68, app/stylesheets/_collection.scss */
-.collection-album-container .collection-overlay-button .fa-play {
-  padding-left: 5px; }
+  /* line 5, app/stylesheets/_collection.scss */
+  .collection-album-container .caption {
+    margin-top: 10px; }
+    /* line 7, app/stylesheets/_collection.scss */
+    .collection-album-container .caption p {
+      font-size: 16px;
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.6); }
+      /* line 11, app/stylesheets/_collection.scss */
+      .collection-album-container .caption p a {
+        color: rgba(255, 255, 255, 0.6); }
+        /* line 13, app/stylesheets/_collection.scss */
+        .collection-album-container .caption p a.album-name {
+          color: white; }
+  /* line 19, app/stylesheets/_collection.scss */
+  .collection-album-container img {
+    max-width: 100%; }
+  /* line 22, app/stylesheets/_collection.scss */
+  .collection-album-container .collection-album-image-container {
+    position: relative; }
+  /* line 25, app/stylesheets/_collection.scss */
+  .collection-album-container .collection-album-image-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10; }
+  /* line 34, app/stylesheets/_collection.scss */
+  .collection-album-container .collection-overlay-content {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center; }
+  /* line 40, app/stylesheets/_collection.scss */
+  .collection-album-container .collection-overlay-button {
+    font-size: 20px;
+    background-color: white;
+    color: #d2287b;
+    border-radius: 50% 50%;
+    display: inline-block;
+    width: 42px;
+    height: 42px; }
+    /* line 48, app/stylesheets/_collection.scss */
+    .collection-album-container .collection-overlay-button:hover {
+      cursor: pointer;
+      color: white;
+      background-color: #d2287b; }
+    /* line 53, app/stylesheets/_collection.scss */
+    .collection-album-container .collection-overlay-button i {
+      line-height: 42px; }
+    /* line 56, app/stylesheets/_collection.scss */
+    .collection-album-container .collection-overlay-button .fa-play {
+      padding-left: 5px; }
 
 /* line 1, app/stylesheets/_player_bar.scss */
 .player-bar {
