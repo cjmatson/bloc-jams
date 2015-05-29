@@ -424,85 +424,95 @@ body.landing {
 /* line 63, stdin */
 .player-header-nav {
   background-color: rgba(123, 70, 163, 0.9); }
+  /* line 66, stdin */
+  .player-header-nav .navbar-nav a {
+    line-height: 45px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1.2; }
+    /* line 73, stdin */
+    .player-header-nav .navbar-nav a:hover {
+      color: rgba(123, 70, 163, 0.9); }
 
-/* line 67, stdin */
+/* line 80, stdin */
 body.landing .navbar {
   margin-bottom: 0; }
 
-/* line 71, stdin */
+/* line 84, stdin */
 .album-header-container {
   margin-top: 55px;
   margin-bottom: 40px; }
 
-/* line 77, stdin */
+/* line 90, stdin */
 .album-header-information {
   margin-top: 45px;
   margin-bottom: 20px; }
 
-/* line 83, stdin */
+/* line 96, stdin */
 .album-header-information h3, .album-header-information h4, .album-header-information h5 {
   line-height: 150%; }
 
-/* line 90, stdin */
+/* line 103, stdin */
 .album-header-information h3 {
   font-size: 48px;
   font-weight: 300; }
 
-/* line 95, stdin */
+/* line 108, stdin */
 .album-header-information h4 {
   font-size: 24px;
   font-weight: 700; }
 
-/* line 100, stdin */
+/* line 113, stdin */
 .album-header-information h5 {
   font-size: 16px;
   font-weight: 500; }
 
-/* line 106, stdin */
+/* line 119, stdin */
 .table.album-song-listing {
   font-weight: 300; }
 
-/* line 112, stdin */
+/* line 125, stdin */
 .table.album-song-listing td {
   padding: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.4); }
 
-/* line 117, stdin */
+/* line 130, stdin */
 body.player {
   color: white; }
 
-/* line 121, stdin */
+/* line 134, stdin */
 .collection-album-container {
   margin-top: 30px;
   margin-bottom: 20px; }
 
-/* line 125, stdin */
+/* line 138, stdin */
 .collection-album-container .caption {
   margin-top: 10px; }
 
-/* line 128, stdin */
+/* line 141, stdin */
 .collection-album-container .caption p {
   font-size: 16px;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.6); }
 
-/* line 133, stdin */
+/* line 146, stdin */
 .collection-album-container .caption p a {
   color: rgba(255, 255, 255, 0.6); }
 
-/* line 136, stdin */
+/* line 149, stdin */
 .collection-album-container .caption p a.album-name {
   color: white; }
 
-/* line 140, stdin */
+/* line 153, stdin */
 .collection-album-container img {
   max-width: 100%; }
 
-/* line 144, stdin */
+/* line 157, stdin */
 .collection-album-container .collection-album-image-container {
   position: relative; }
 
-/* line 148, stdin */
+/* line 161, stdin */
 .collection-album-container .collection-album-image-overlay {
   position: absolute;
   top: 0px;
@@ -512,14 +522,14 @@ body.player {
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 10; }
 
-/* line 158, stdin */
+/* line 171, stdin */
 .collection-album-container .collection-overlay-content {
   position: absolute;
   bottom: 20px;
   width: 100%;
   text-align: center; }
 
-/* line 165, stdin */
+/* line 178, stdin */
 .collection-album-container .collection-overlay-button {
   font-size: 20px;
   background-color: white;
@@ -529,21 +539,21 @@ body.player {
   width: 42px;
   height: 42px; }
 
-/* line 175, stdin */
+/* line 188, stdin */
 .collection-album-container .collection-overlay-button:hover {
   cursor: pointer;
   color: white;
   background-color: #d2287b; }
 
-/* line 181, stdin */
+/* line 194, stdin */
 .collection-album-container .collection-overlay-button i {
   line-height: 42px; }
 
-/* line 185, stdin */
+/* line 198, stdin */
 .collection-album-container .collection-overlay-button .fa-play {
   padding-left: 5px; }
 
-/* line 189, stdin */
+/* line 202, stdin */
 .album-song-button {
   text-align: center;
   font-size: 14px;
@@ -554,31 +564,31 @@ body.player {
   width: 28px;
   height: 28px; }
 
-/* line 200, stdin */
+/* line 213, stdin */
 .album-song-button:hover {
   cursor: pointer;
   color: white;
   background-color: #d2287b; }
 
-/* line 206, stdin */
+/* line 219, stdin */
 .album-song-button i {
   line-height: 28px; }
 
-/* line 210, stdin */
+/* line 223, stdin */
 .album-song-button .fa-play {
   padding-left: 5px; }
 
-/* line 214, stdin */
+/* line 227, stdin */
 .album-song-listing td {
   vertical-align: middle; }
 
-/* line 218, stdin */
+/* line 231, stdin */
 td.song-number {
   padding: 0;
   height: 70px;
   text-align: center; }
 
-/* line 224, stdin */
+/* line 237, stdin */
 .player-bar {
   position: fixed;
   bottom: 0;
@@ -588,59 +598,59 @@ td.song-number {
   background: rgba(255, 255, 255, 0.3);
   z-index: 100; }
 
-/* line 234, stdin */
+/* line 247, stdin */
 .player-bar a, .player-bar a:hover {
   color: white;
   cursor: pointer;
   text-decoration: none; }
 
-/* line 240, stdin */
+/* line 253, stdin */
 .player-bar .container {
   display: table;
   padding: 0;
   min-height: 100%; }
 
-/* line 246, stdin */
+/* line 259, stdin */
 .player-bar-control-group {
   display: table-cell;
   vertical-align: middle; }
 
-/* line 251, stdin */
+/* line 264, stdin */
 .player-bar .left-controls {
   width: 25%;
   text-align: left; }
 
-/* line 256, stdin */
+/* line 269, stdin */
 .player-bar .right-controls {
   width: 25%;
   text-align: right; }
 
-/* line 261, stdin */
+/* line 274, stdin */
 .player-bar .play-controls a {
   font-size: 20px;
   vertical-align: middle;
   transition: opacity 100ms ease-in-out; }
 
-/* line 267, stdin */
+/* line 280, stdin */
 .player-bar .play-controls a:hover {
   opacity: 0.5; }
 
-/* line 271, stdin */
+/* line 284, stdin */
 .player-bar .play-controls .previous {
   margin-right: 65px; }
 
-/* line 275, stdin */
+/* line 288, stdin */
 .player-bar .play-controls .play-pause {
   margin-right: 60px;
   font-size: 30px; }
 
-/* line 280, stdin */
+/* line 293, stdin */
 .player-bar .currently-playing {
   width: 50%;
   text-align: center;
   position: relative; }
 
-/* line 287, stdin */
+/* line 300, stdin */
 .player-bar .currently-playing .song-name, .player-bar .currently-playing .artist-name {
   text-align: center;
   font-size: 12px;
@@ -649,30 +659,30 @@ td.song-number {
   width: 100%;
   font-weight: 300; }
 
-/* line 297, stdin */
+/* line 310, stdin */
 .player-bar .currently-playing .song-name {
   top: 20px; }
 
-/* line 301, stdin */
+/* line 314, stdin */
 .player-bar .currently-playing .artist-name {
   bottom: 20px; }
 
-/* line 305, stdin */
+/* line 318, stdin */
 .seek-control {
   position: relative; }
 
-/* line 309, stdin */
+/* line 322, stdin */
 .seek-control .current-time {
   position: absolute;
   top: 10px; }
 
-/* line 314, stdin */
+/* line 327, stdin */
 .seek-control .total-time {
   position: absolute;
   right: 0;
   top: 10px; }
 
-/* line 320, stdin */
+/* line 333, stdin */
 .seek-bar {
   height: 5px;
   background: rgba(255, 255, 255, 0.3);
@@ -680,14 +690,14 @@ td.song-number {
   position: relative;
   cursor: pointer; }
 
-/* line 328, stdin */
+/* line 341, stdin */
 .seek-bar .fill {
   background: white;
   width: 36%;
   height: 5px;
   border-radius: 2px; }
 
-/* line 335, stdin */
+/* line 348, stdin */
 .seek-bar .thumb {
   position: absolute;
   height: 10px;
@@ -701,34 +711,34 @@ td.song-number {
   cursor: pointer;
   transition: all 100ms ease-in-out; }
 
-/* line 349, stdin */
+/* line 362, stdin */
 .seek-bar:hover .thumb {
   width: 20px;
   height: 20px;
   margin-top: -10px;
   margin-left: -10px; }
 
-/* line 356, stdin */
+/* line 369, stdin */
 .player-bar .queue-toggle {
   display: inline-block;
   margin-left: 75px; }
 
-/* line 361, stdin */
+/* line 374, stdin */
 .player-bar .queue-toggle i {
   font-size: 20px; }
 
-/* line 365, stdin */
+/* line 378, stdin */
 .player-bar .volume {
   display: inline-block; }
 
-/* line 369, stdin */
+/* line 382, stdin */
 .player-bar .volume i {
   width: 40px;
   font-size: 20px;
   display: inline-block;
   vertical-align: middle; }
 
-/* line 375, stdin */
+/* line 388, stdin */
 .player-bar .volume .seek-bar {
   display: inline-block;
   width: 100px;
