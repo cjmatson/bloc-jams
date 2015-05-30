@@ -243,6 +243,7 @@ html {
    height: 150px;
    background: rgba(255, 255, 255, 0.3);
    z-index: 100;
+   color: white;
  }
  
  .player-bar a, .player-bar a:hover {
@@ -295,6 +296,7 @@ html {
    width: 50%;
    text-align: center;
    position: relative;
+   color: white;
  }
  
  .player-bar .currently-playing .song-name,

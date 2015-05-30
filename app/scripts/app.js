@@ -39,8 +39,8 @@
 
    $stateProvider.state('album', {
      url: '/album',
-     templateUrl: '/templates/album.html',
-     controller: 'Album.controller'
+     controller: 'Album.controller',
+     templateUrl: '/templates/album.html'
    });
 
  }]);
